@@ -1,0 +1,478 @@
+.body{
+    background: white;
+}
+
+/* Header-Logo */
+#container{
+    height: 100%;
+    width: auto;
+    margin: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    height: 120px;
+}
+
+/* Menú */
+.menu{
+    font: 18px Arial;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.034);
+    width: 90%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    border-radius: 5%;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: white;
+    background: #48CFAD;
+    transition: all .25s ease-in;
+}
+
+.menu .actual{
+    color: black;
+    background: #c7cac9;
+}
+
+.menu .actual:hover{
+    color: black;
+    background: #c7cac9;
+}
+
+/* Body */
+#body{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#principal{
+    height: 100%;
+    width: 70%;
+    margin-left: 4%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#noticias{
+    padding: 2px 16px 20px 20px;
+}
+
+@font-face{
+    font-family: Intro;
+    src: url(font/Intro.otf);
+}
+
+/* Index - Card */
+.card{
+    width: 96%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.titulo-card{
+    font-size: 19px;
+    font-family: Intro;
+    margin-bottom: 1%;
+}
+
+.card img{
+    width: 20%;
+    border-radius: 5%;
+    float: left;
+    margin-right: 20px;
+}
+
+.fecha-card{
+    font: 15px Arial;
+    font-weight: bold;
+    color: grey;
+}
+
+.texto-card{
+    font: 18px Arial;
+    font-weight: bold;
+    color: #505050;
+}
+
+.boton-card{
+    background: #c7cac9;
+    color: black;
+    border-radius: 5%;
+    padding: 10px;
+    text-decoration: none;
+    font: 15px Arial;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.boton-card:hover{
+    background-color: #48CFAD;
+    color: white;
+    transition: all .25s ease-in;
+}
+
+/* SideBar */
+#secundario{
+    width: 320px;
+    height: 100%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#sidebar{
+    width: 96%;
+    height: auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.lista-top{
+    padding: 5%;
+    border-radius: 5%;
+}
+
+.lista-top:hover{
+    background: #d4d4d460;
+}
+
+.lista-bottom{
+    padding: 5%;
+    border-radius: 5%;
+}
+
+.lista-bottom:hover{
+    background: #d4d4d460;
+}
+
+.titulo-lista{
+    font-size: 19px;
+    font-family: Intro;
+    margin-bottom: 1%;
+}
+
+.lista-sidebar li{
+    list-style: none;
+    font: 15px Arial;
+    font-weight: bold;
+}
+
+.sublista li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sublista li a:hover{
+    color: #48CFAD;
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista a:hover{
+    color: #48CFAD;
+}
+
+/* Ayuda - Card */
+#ayuda{
+    width: 96%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.titulo-h2 /* Ayuda, Perfil */{
+    font-size: 30px;
+    font-family: Intro;
+    margin-bottom: 3%;
+}
+
+.titulo-preguntas{
+    font-size: 19px;
+    font-family: Intro;
+    margin-bottom: 1%;
+}
+
+.respuesta{
+    margin-top: 19px;
+    font: 17px Arial;
+    font-weight: bold;
+    color: grey;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: #48CFAD;
+}
+
+/* Contacto - Card */
+#contacto{
+    width: 96%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    margin-left: 25%;
+    width: 50%;
+}
+
+.container-form{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.input, label{
+    display: block;
+}
+
+label{
+    width: 30%;
+    font: 17px Arial;
+    font-weight: bold;
+    color: #505050;
+}
+
+.input{
+    width: 50%;
+    padding: 7px;
+    margin-left: 2%;
+}
+
+.select{
+    width: 53%;
+    padding: 7px;
+    margin-left: 2%;
+}
+
+.radio{
+    width: 5%;
+}
+
+.radio-text{
+    font: 15px Arial;
+    font-weight: bold;
+    color: #505050;
+}
+
+.boton{
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 40%;
+    background: lightgrey;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font: 17px Arial;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background: #48CFAD;
+    color: white;
+}
+
+/* Galería */
+.card-slider{
+    width: 96%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.texto-p /* Galería, Noticias */{
+    font: 18px Arial;
+    font-weight: bold;
+    color: grey;
+}
+
+.slider-frame {
+	width: 95%;
+    margin: auto;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/* Noticias - Card */
+.card-post{
+    width: 96%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.h2-noticias{
+    font-size: 30px;
+    font-family: Intro;
+}
+
+.texto-p1{
+    font: 17px Arial;
+    color: grey
+}
+
+.fecha-div{
+    margin-bottom: 2%;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.card-post img{
+    max-width: 80%;
+    height: auto!important;
+    border: 0;
+    margin-left: 12%;
+}
+
+.texto-caption{
+    margin-top: 12px;
+    text-align: center;
+    font: 12px Arial;
+    margin-bottom: 3%;
+    color: gray;
+}
+
+/* Noticias - SideBar */
+.sublista .sublista-actual{
+    color: #c7cac9;
+}
+
+.sublista .sublista-actual:hover{
+    color: #c7cac9;
+}
+
+/* Perfil - Card */
+.card-perfil{
+    width: 96%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13);
+    padding: 2px 16px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-perfil img{
+    border-radius: 50%;
+    max-width: 15%;
+    height: auto!important;
+    margin-left: 42%;
+}
+
+.titulo-h4{
+    font-size: 19px;
+    font-family: Intro;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.redes-perfil{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);;
+}
+
+.texto-p-perfil{
+    text-align: center;
+    margin-top: 19px;
+    font: 15px Arial;
+    font-weight: bold;
+}
+
+.texto-p-perfil a{
+    color: grey;
+    text-decoration: none;
+}
+
+.texto-p-perfil a:hover{
+    color: #48CFAD;
+}
+
+.about-perfil{
+    margin-bottom: 10px;
+}
+
+.about-perfil li{
+    list-style: none;
+    margin-left: 30%;
+    margin-top: 19px;
+    font: 16px Arial;
+    font-weight: bold;
+    color: grey;
+}
+
+/* Footer */
+.footer-texto p{
+    font: 12px Arial;
+    color: grey;
+    text-align: center;
+}
